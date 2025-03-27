@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.6/axios.min.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <input id="a" type="number" placeholder="a=">
-    <input id="b" type="number" placeholder="b=">
-    <button onclick="fetching()">calculate</button>
+    <div id="calcu">
+        <div id="upper">
+            <input id="a" type="number" placeholder="a=">
+            <div id="operator"></div>
+            <input id="b" type="number" placeholder="b=">
+            
+        </div>
+
+    </div>
     <div id="result"></div>
 
 
