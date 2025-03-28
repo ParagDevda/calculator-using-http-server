@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.6/axios.min.js"></script>
     <title>Document</title>
 </head>
@@ -11,9 +15,18 @@
     <div id="calcu">
         <div id="upper">
             <input id="a" type="number" placeholder="a=">
-            <div id="operator"></div>
+            <div id="operator">
+                <i class="ri-add-line"></i>
+            </div>
             <input id="b" type="number" placeholder="b=">
-            
+            <i class="ri-equal-line"></i> 
+            <div id="result"></div>
+        </div>
+        <div id="lower">
+            <i class="ri-add-line"></i>
+            <i class="ri-subtract-line"></i>
+            <i class="ri-close-fill"></i>
+            <i class="ri-divide-line"></i>
         </div>
 
     </div>
